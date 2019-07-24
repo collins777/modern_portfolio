@@ -283,3 +283,29 @@ main {
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; } }
+
+@media screen and (min-width: 375px) {
+  h1.lg-heading {
+    margin-top: 10vh;
+    font-size: 4rem; }
+  h2 {
+    font-size: 1.5rem; }
+  h3 {
+    font-size: 1.4rem; }
+  #about p {
+    font-size: 1rem; }
+  #about img {
+    height: 30vh;
+    width: 30vh; }
+  #contact h1.lg-heading {
+    font-size: 3.8rem;
+    text-align: center; }
+  #contact .boxes div {
+    border: none;
+    font-size: 1rem; }
+  .menu-branding {
+    height: 30vh;
+    padding: 25px; }
+  .portrait {
+    width: 50vw;
+    height: 50vh; } }
