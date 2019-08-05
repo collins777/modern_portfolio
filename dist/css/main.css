@@ -283,7 +283,7 @@ main {
   .projects {
     grid-template-columns: 1fr; } }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   h1.lg-heading {
     margin-top: 10vh;
     font-size: 4rem; }
