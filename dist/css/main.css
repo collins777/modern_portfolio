@@ -303,8 +303,6 @@ main {
     border: none;
     font-size: 1rem; }
   .menu-branding {
-    height: 30vh;
-    padding: 25px; }
-  .portrait {
-    width: 50vw;
-    height: 50vh; } }
+    display: none; }
+  .menu-nav {
+    height: 100vh; } }

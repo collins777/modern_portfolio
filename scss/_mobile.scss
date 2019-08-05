@@ -119,13 +119,14 @@
       }
     }
   }
-  .menu-branding {
-    height: 30vh;
-    padding: 25px;
-  }
 
-  .portrait {
-    width: 50vw;
-    height: 50vh;
+  .menu {
+    &-branding {
+      display: none;
+    }
+
+    &-nav {
+      height: 100vh;
+    }
   }
 }
