@@ -12,25 +12,27 @@ $background-opacity: 0.7;
 @mixin background {
   @if $show-home-image {
     &#bg-img {
-      background: $home-image;
+      // background-image: $home-image;
+      background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        $home-image;
       background-attachment: fixed;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       position: relative;
 
-      &::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: rgba($primary-color, $background-opacity);
-        z-index: -1;
-      }
+      // &::after {
+      //   content: "";
+      //   position: absolute;
+      //   top: 0;
+      //   right: 0;
+      //   bottom: 0;
+      //   left: 0;
+      //   width: 100vw;
+      //   height: 100vh;
+      //   background: rgba($primary-color, $background-opacity);
+      //   z-index: -1;
+      // }
     }
   }
 }
