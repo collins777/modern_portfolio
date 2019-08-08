@@ -279,8 +279,11 @@ main {
 
 @media screen and (max-width: 375px) {
   h1.lg-heading {
+    font-size: 40px;
     margin-top: 10vh;
-    font-size: 4rem; }
+    text-align: center; }
+  .sm-heading {
+    font-size: 20px; }
   h2 {
     font-size: 1.5rem; }
   h3 {
@@ -290,9 +293,6 @@ main {
   #about img {
     height: 30vh;
     width: 30vh; }
-  #contact h1.lg-heading {
-    font-size: 3.8rem;
-    text-align: center; }
   #contact .boxes div {
     border: none;
     font-size: 1rem; }

@@ -81,9 +81,20 @@
 }
 
 @include iphoneX {
+  // .lg-heading {
+  //   margin-top: 10vh;
+  //   font-size: 10px;
+  //   text-align: center;
+  // }
+
   h1.lg-heading {
+    font-size: 40px;
     margin-top: 10vh;
-    font-size: 4rem;
+    text-align: center;
+  }
+
+  .sm-heading {
+    font-size: 20px;
   }
 
   h2 {
@@ -106,10 +117,10 @@
   }
 
   #contact {
-    h1.lg-heading {
-      font-size: 3.8rem;
-      text-align: center;
-    }
+    // h1.lg-heading {
+    //   font-size: 3rem;
+    //   text-align: center;
+    // }
 
     .boxes {
       div {
